@@ -1,4 +1,5 @@
 # GoBarber GoStack
+API desenvolvida para o agendamento de horários para uma barbearia ou cabeleireiro.
 Projeto desenvolvido durante a Semana 2 do bootcamp GoStack afim de exercitar conceitos de arquitetura de software, persistência de dados, orm com o TypeORM, dentre outros conceitos.
 
 ## ⚙ Pré-requisitos
