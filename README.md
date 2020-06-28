@@ -15,7 +15,7 @@ Para a execução do projeto em seu ambiente local é necessário possuir instal
 3. No terminal, execute o comando npm install para instalar as dependências do projeto (Caso você tenha o yarn instalado em sua máquina, execute apenas yarn para a instalação das dependencias)
 4. Tendo finalizado o processo anterior, execute o comando npm run dev (ou yarn dev), para executar a API e a partir desse momento a API estará sendo executada de forma local na porta 5000
 
-5. Realize a configuração do seu ambiente local ou de uma imagem docker PostgreSQL, com duas bases nomeadas `gostack_desafio06_tests` para os testes e `gostack_desafio06`.
+5. Realize a configuração do seu ambiente local ou de uma imagem docker PostgreSQL, com duas bases nomeadas `gostack_gobarber`.
 6. Execute o comando `yarn typeorm migration:run` ou `npm run typeorm migration:run` para a execução das migrations no banco de dados
 
 ## 📋 Comandos disponíveis
