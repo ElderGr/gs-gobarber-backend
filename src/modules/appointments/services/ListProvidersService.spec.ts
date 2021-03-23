@@ -4,7 +4,7 @@ import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepo
 let fakeUsersRepository: FakeUsersRepository
 let listProvidersService: ListProvidersService
 
-describe('UpdateProfile', () =>{
+describe('ListProviders', () =>{
     beforeEach(() => {
         fakeUsersRepository = new FakeUsersRepository();
 
