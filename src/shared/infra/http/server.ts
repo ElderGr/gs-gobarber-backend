@@ -24,6 +24,7 @@ app.use(errors());
 //tratativa global dos erros da aplicação
 app.use((err: Error, req: Request, res: Response, _: NextFunction) =>{
     //tratativa para erros dentro da aplicação
+    console.log(err)
     if( err instanceof AppError ){
         return res.status(err.statusCode).json({
             status: 'error',
