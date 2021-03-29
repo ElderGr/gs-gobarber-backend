@@ -6,7 +6,7 @@ import { injectable, inject } from 'tsyringe';
 import IMailTemplateProvider from '@shared/container/providers/MailTemplateProvider/models/IMailTemplateProvider';
 
 @injectable()
-export default class FakeMailProvider implements IMailProvider{
+export default class EtherealMailProvider implements IMailProvider{
     private client: Transporter;
 
     constructor(
